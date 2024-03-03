@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to bottom, #fff1eb, #7b8794, #ace0f9);
+  height: 100vh;
+  overflow-x: hidden;
+  margin: auto;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+.heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+  color: #1e293b;
+  padding-top: 10px;
+  text-align: center;
+}
+.container {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-container {
+  background-color: transparent;
+  padding: 20px 20px 10px 20px;
+  border: 1px solid #949596;
+  padding-top: 8px;
+  padding-right: 8px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.search {
+  font-size: 15px;
+  font-family: 'Roboto';
+  padding-left: 5px;
+  width: 200px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.search-icon {
+  height: 30px;
+  width: 30px;
+}
+.tab-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.app-list-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
